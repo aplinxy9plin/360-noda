@@ -1,0 +1,29 @@
+html
+    head
+        title Модель
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="stylesheet", href="/css/jquery-ui.min.css")
+        link(rel="stylesheet", href="/css/styles.css")
+ 
+        script(src="/js/lib/jquery.min.js")
+        script(src="/js/lib/jquery-ui.min.js")
+ 
+        //- data
+        script(type='text/javascript').
+            var cadr_count = !{count};
+            var cadr_width = !{mw};
+            var cadr_height = !{mh};
+ 
+        script(src="/js/myscr.js")
+ 
+    body
+        #myscr
+            center
+                h5
+                    | Ваша ссылка:
+                    a(href!= link)
+                        != link
+            #screen
+            #ctrl_panel
+            input(type="button", value="Play", id="btn_play")
+            #slider

@@ -1,0 +1,28 @@
+{
+    "name": "360_uploader",
+    "description": "360 uploader",
+    "authors": "damir",
+    "version": "1.0.0",
+    "main": "src",
+    "private": true,
+    "scripts": {
+        "start": "node .",
+        "dev": "nodemon ."
+    },
+    "_moduleAliases": {
+        "~": "src/"
+    },
+    "dependencies": {
+        "@koa/cors": "2",
+        "async-busboy": "^0.7.0",
+        "canvas": "^2.5.0",
+        "image-size": "^0.7.4",
+        "koa": "^2.7.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-pug": "^3.0.0-2",
+        "koa-router": "^7.4.0",
+        "koa-static": "^5.0.0",
+        "module-alias": "^2.1.0",
+        "uuid": "^3.3.2"
+    }
+}

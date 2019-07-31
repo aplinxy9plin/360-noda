@@ -1,0 +1,80 @@
+﻿#myscr{
+    margin: 0 auto;
+    width: 600px;
+    /* background: #f1f18f;   */
+}
+
+#screen{
+    margin: 0 auto;
+    width: 334px;
+    height: 334px;
+    background: url(../img/shit.jpg);
+}
+
+#ctrl_panel{
+    padding-top: 25px;
+    height: 50px;
+    /*background: #ddffdd;*/  
+}
+
+#slider{
+    margin: 5px 20px;
+    width: 567px;
+    float: left;
+}
+
+#btn_play{
+    width:220px;
+    height: 52px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display:block;
+    font: 18px/15px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-left: 10px; 
+    float: left;
+}
+
+#btn_play:hover {
+    color: white;
+    background: #333333;
+}
+
+body{
+    background-color: rgb(255, 255, 255)
+}
+
+.download-photo{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+
+}
+.label{
+    width: 365px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #333;
+    color: #333;
+    float:right;
+}
+
+.label:hover{
+    color: white;
+    background: #333;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 1em;
+}
